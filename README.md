@@ -84,14 +84,16 @@ You can access it on your browser using either http://localhost:3000 or 0.0.0.0:
 docker ps
 ```
 
-9. If you are happy with the results of your application. You can docker tag it e.g. v1.0.0 and then push it to the repository
+9. If you are happy with the results of your application. You can docker tag it e.g. v1.0.0 and then push it to the repository.
+   Reference docker's official documents on different ways you can tag. https://docs.docker.com/reference/cli/docker/image/tag/
+   You will need to create an account on dockerhub https://hub.docker.com/ and instead of shujohns use your dockerhub username.
 
 ```bash
-docker tag 518a41981a6a mountaintechdigital/johnshu-docker-app
+docker tag 518a41981a6a shujohns/johnshu-docker-app
 ```
 
 ```bash
-docker push mountaintechdigital/johnshu-docker-app
+docker push shujohns/johnshu-docker-app
 ```
 
 10. To get rid of an image so as to preserve disk space, you have to kill the process first and then remove its associated image.
