@@ -87,6 +87,7 @@ docker ps
 9. If you are happy with the results of your application. You can docker tag it e.g. v1.0.0 and then push it to the repository.
    Reference docker's official documents on different ways you can tag. https://docs.docker.com/reference/cli/docker/image/tag/
    You will need to create an account on dockerhub https://hub.docker.com/ and instead of shujohns use your dockerhub username.
+<img width="1924" alt="Screen Shot 2024-11-27 at 12 59 06 PM" src="https://github.com/user-attachments/assets/dc1f0f73-1c99-4f38-b25f-6648a6e60d52">
 
 ```bash
 docker tag 518a41981a6a shujohns/johnshu-docker-app
