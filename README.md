@@ -58,7 +58,7 @@ To see all the currently available/running processes run:
 docker ps
 ```
 
-7. Now to build the image we use 'docker build'. We make sure to run this command in the folder where we have our specified 'Dockerfile'. This will run through the Dockerfile and build an image.
+7. Now to build the image we use 'docker build'. We make sure to run this command in the folder where we have our specified 'Dockerfile'. This will run through the Dockerfile and build an image. You can replace the 'johnshu' below with any name. e.g. 'johnsmith-docker-app'
 
 ```bash
 docker build -t johnshu-docker-app .
@@ -69,6 +69,8 @@ docker build -t johnshu-docker-app .
 ```bash
 docker ps
 ```
+
+Again be sure to find the name of the app you gave e.g. 'johnsmith-docker-app'. Update the command below with the right name before running. The same is true for the rest of the places you see johnshu.
 
 ```bash
 docker run -d -p 3000:3000 johnshu-docker-app
